@@ -6,12 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RocketNews</title>
+
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Work+Sans:wght@700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
+  <main>
+    <aside id="form">
+      <img src="./assets/logo.svg" alt="RocketNews logo" width="389px">
+      <div id="text_wrapper">
+        <h2 class="title__text_wrapper">atualize ideias e informações em 5 minutos.</h2>
+        <p class="subtitle__text_wrapper">tudo que você precisa saber para começar seu dia bem e informado</p>
+        <p class="paragrafo__text_wrapper">
+          noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.
+          perfeito para se preparar para codar ☕
+        </p>
+      </div>
+      <form class="email__form">
+        <label class="label-input__form" for="email">Insira o seu e-mail:</label>
+        <div class="input__form">
+          <input type="email" name="email" id="email" placeholder="oi@rocketseat.com">
+          <button type="submit">
+            <img src="./assets/send.svg" alt="ícone enviar">
+          </button>
+        </div>
+      </form>
+      <p class="deixe-ler">
+        deixe-me ler primeiro <img src="./assets/arrow-right.svg" alt="Seta para direita">
+      </p>
+    </aside>
+    <aside id="background"></aside>
+  </main>
 </body>
 
 </html>

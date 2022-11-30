@@ -1,0 +1,120 @@
+main {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #121214;
+  padding: 3.125rem 0 0 1.875rem;
+}
+
+#text_wrapper {
+  margin: 5.75rem 0 3.125rem 0;
+}
+
+.title__text_wrapper {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #08c05e;
+}
+
+.subtitle__text_wrapper {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.16375rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.paragrafo__text_wrapper {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.16375rem;
+  font-weight: 400;
+  line-weight: 139%;
+  color: #ffffff;
+}
+
+.label-input__form {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.16375rem;
+  font-weight: 400;
+  line-weight: 139%;
+  color: #a8a8a8;
+}
+
+.input__form {
+  margin-top: 1.0625rem;
+
+  position: absolute;
+
+  display: flex;
+  align-item: center;
+}
+
+.input__form > input {
+  border-radius: 0;
+  border-style: none;
+
+  padding: 1.0625rem 0.9375rem;
+
+  border-left: 5px solid #04d361;
+
+  width: 55vw;
+
+  font-family: "League Spartan", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.input__form > button {
+  padding: 0.75rem;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #8257e5;
+
+  border-radius: 0;
+  border-style: none;
+}
+
+.input__form > button:hover {
+  cursor: pointer;
+  background-color: #9d7de8;
+}
+
+.deixe-ler {
+  margin-top: 7.1875rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.16375rem;
+  font-weight: 700;
+  line-weight: 139%;
+  color: #8257e5;
+}
+
+.deixe-ler:hover {
+  cursor: pointer;
+  color: #9d7de8;
+}
+
+.deixe-ler > img:hover {
+  stroke: #9d7de8;
+}
+
+#background {
+  background-color: #121214;
+  background-image: url("./assets/read_news 1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
